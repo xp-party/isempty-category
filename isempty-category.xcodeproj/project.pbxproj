@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		40555A0A1550285B00F59AB7 /* NSString+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = 40555A091550285B00F59AB7 /* NSString+Additions.m */; };
 		409A77C7154FD8F10054A1B9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 409A77C6154FD8F10054A1B9 /* UIKit.framework */; };
 		409A77C9154FD8F10054A1B9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 409A77C8154FD8F10054A1B9 /* Foundation.framework */; };
 		409A77CB154FD8F10054A1B9 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 409A77CA154FD8F10054A1B9 /* CoreGraphics.framework */; };
@@ -17,7 +18,6 @@
 		409A77E0154FD8F10054A1B9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 409A77C6154FD8F10054A1B9 /* UIKit.framework */; };
 		409A77E1154FD8F10054A1B9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 409A77C8154FD8F10054A1B9 /* Foundation.framework */; };
 		409A77E9154FD8F10054A1B9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 409A77E7154FD8F10054A1B9 /* InfoPlist.strings */; };
-		409A77F7154FDB630054A1B9 /* NSString+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = 409A77F5154FDB630054A1B9 /* NSString+Additions.m */; };
 		409A77FA154FDED20054A1B9 /* NSString+AdditionsTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 409A77F9154FDED20054A1B9 /* NSString+AdditionsTest.m */; };
 /* End PBXBuildFile section */
 
@@ -32,6 +32,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		40555A081550285500F59AB7 /* NSString+Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Additions.h"; sourceTree = "<group>"; };
+		40555A091550285B00F59AB7 /* NSString+Additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Additions.m"; sourceTree = "<group>"; };
 		409A77C2154FD8F10054A1B9 /* isempty-category.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "isempty-category.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		409A77C6154FD8F10054A1B9 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		409A77C8154FD8F10054A1B9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -46,8 +48,6 @@
 		409A77DE154FD8F10054A1B9 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
 		409A77E6154FD8F10054A1B9 /* isempty-categoryTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "isempty-categoryTests-Info.plist"; sourceTree = "<group>"; };
 		409A77E8154FD8F10054A1B9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		409A77F5154FDB630054A1B9 /* NSString+Additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSString+Additions.m"; path = "../NSString+Additions.m"; sourceTree = "<group>"; };
-		409A77F6154FDB630054A1B9 /* NSString+Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSString+Additions.h"; path = "../NSString+Additions.h"; sourceTree = "<group>"; };
 		409A77F8154FDED20054A1B9 /* NSString+AdditionsTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+AdditionsTest.h"; sourceTree = "<group>"; };
 		409A77F9154FDED20054A1B9 /* NSString+AdditionsTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+AdditionsTest.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -109,8 +109,8 @@
 		409A77CC154FD8F10054A1B9 /* isempty-category */ = {
 			isa = PBXGroup;
 			children = (
-				409A77F5154FDB630054A1B9 /* NSString+Additions.m */,
-				409A77F6154FDB630054A1B9 /* NSString+Additions.h */,
+				40555A081550285500F59AB7 /* NSString+Additions.h */,
+				40555A091550285B00F59AB7 /* NSString+Additions.m */,
 				409A77D5154FD8F10054A1B9 /* XPAppDelegate.h */,
 				409A77D6154FD8F10054A1B9 /* XPAppDelegate.m */,
 				409A77CD154FD8F10054A1B9 /* Supporting Files */,
@@ -257,7 +257,7 @@
 			files = (
 				409A77D3154FD8F10054A1B9 /* main.m in Sources */,
 				409A77D7154FD8F10054A1B9 /* XPAppDelegate.m in Sources */,
-				409A77F7154FDB630054A1B9 /* NSString+Additions.m in Sources */,
+				40555A0A1550285B00F59AB7 /* NSString+Additions.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -419,6 +419,7 @@
 				409A77F1154FD8F10054A1B9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		409A77F2154FD8F10054A1B9 /* Build configuration list for PBXNativeTarget "isempty-categoryTests" */ = {
 			isa = XCConfigurationList;
@@ -427,6 +428,7 @@
 				409A77F4154FD8F10054A1B9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
