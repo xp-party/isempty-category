@@ -18,7 +18,6 @@
 		409A77E1154FD8F10054A1B9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 409A77C8154FD8F10054A1B9 /* Foundation.framework */; };
 		409A77E9154FD8F10054A1B9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 409A77E7154FD8F10054A1B9 /* InfoPlist.strings */; };
 		409A77F7154FDB630054A1B9 /* NSString+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = 409A77F5154FDB630054A1B9 /* NSString+Additions.m */; };
-		409A77FA154FDED20054A1B9 /* NSString+AdditionsTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 409A77F9154FDED20054A1B9 /* NSString+AdditionsTest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,8 +47,6 @@
 		409A77E8154FD8F10054A1B9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		409A77F5154FDB630054A1B9 /* NSString+Additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSString+Additions.m"; path = "../NSString+Additions.m"; sourceTree = "<group>"; };
 		409A77F6154FDB630054A1B9 /* NSString+Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSString+Additions.h"; path = "../NSString+Additions.h"; sourceTree = "<group>"; };
-		409A77F8154FDED20054A1B9 /* NSString+AdditionsTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+AdditionsTest.h"; sourceTree = "<group>"; };
-		409A77F9154FDED20054A1B9 /* NSString+AdditionsTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+AdditionsTest.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -133,8 +130,6 @@
 			isa = PBXGroup;
 			children = (
 				409A77E5154FD8F10054A1B9 /* Supporting Files */,
-				409A77F8154FDED20054A1B9 /* NSString+AdditionsTest.h */,
-				409A77F9154FDED20054A1B9 /* NSString+AdditionsTest.m */,
 			);
 			path = "isempty-categoryTests";
 			sourceTree = "<group>";
@@ -265,7 +260,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				409A77FA154FDED20054A1B9 /* NSString+AdditionsTest.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -419,6 +413,7 @@
 				409A77F1154FD8F10054A1B9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		409A77F2154FD8F10054A1B9 /* Build configuration list for PBXNativeTarget "isempty-categoryTests" */ = {
 			isa = XCConfigurationList;
@@ -427,6 +422,7 @@
 				409A77F4154FD8F10054A1B9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
