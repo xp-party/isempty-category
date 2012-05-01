@@ -17,7 +17,8 @@
 		409A77E0154FD8F10054A1B9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 409A77C6154FD8F10054A1B9 /* UIKit.framework */; };
 		409A77E1154FD8F10054A1B9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 409A77C8154FD8F10054A1B9 /* Foundation.framework */; };
 		409A77E9154FD8F10054A1B9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 409A77E7154FD8F10054A1B9 /* InfoPlist.strings */; };
-		409A77EC154FD8F10054A1B9 /* isempty_categoryTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 409A77EB154FD8F10054A1B9 /* isempty_categoryTests.m */; };
+		409A77F7154FDB630054A1B9 /* NSString+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = 409A77F5154FDB630054A1B9 /* NSString+Additions.m */; };
+		409A77FA154FDED20054A1B9 /* NSString+AdditionsTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 409A77F9154FDED20054A1B9 /* NSString+AdditionsTest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,18 +36,20 @@
 		409A77C6154FD8F10054A1B9 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		409A77C8154FD8F10054A1B9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		409A77CA154FD8F10054A1B9 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		409A77CE154FD8F10054A1B9 /* isempty-category-Info.plist */ = {isa = PBXFileReference; path = "isempty-category-Info.plist"; sourceTree = "<group>"; };
+		409A77CE154FD8F10054A1B9 /* isempty-category-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "isempty-category-Info.plist"; sourceTree = "<group>"; };
 		409A77D0154FD8F10054A1B9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		409A77D2154FD8F10054A1B9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		409A77D4154FD8F10054A1B9 /* isempty-category-Prefix.pch */ = {isa = PBXFileReference; path = "isempty-category-Prefix.pch"; sourceTree = "<group>"; };
-		409A77D5154FD8F10054A1B9 /* XPAppDelegate.h */ = {isa = PBXFileReference; path = XPAppDelegate.h; sourceTree = "<group>"; };
+		409A77D4154FD8F10054A1B9 /* isempty-category-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "isempty-category-Prefix.pch"; sourceTree = "<group>"; };
+		409A77D5154FD8F10054A1B9 /* XPAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XPAppDelegate.h; sourceTree = "<group>"; };
 		409A77D6154FD8F10054A1B9 /* XPAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XPAppDelegate.m; sourceTree = "<group>"; };
 		409A77DD154FD8F10054A1B9 /* isempty-categoryTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "isempty-categoryTests.octest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		409A77DE154FD8F10054A1B9 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		409A77E6154FD8F10054A1B9 /* isempty-categoryTests-Info.plist */ = {isa = PBXFileReference; path = "isempty-categoryTests-Info.plist"; sourceTree = "<group>"; };
+		409A77E6154FD8F10054A1B9 /* isempty-categoryTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "isempty-categoryTests-Info.plist"; sourceTree = "<group>"; };
 		409A77E8154FD8F10054A1B9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		409A77EA154FD8F10054A1B9 /* isempty_categoryTests.h */ = {isa = PBXFileReference; path = isempty_categoryTests.h; sourceTree = "<group>"; };
-		409A77EB154FD8F10054A1B9 /* isempty_categoryTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = isempty_categoryTests.m; sourceTree = "<group>"; };
+		409A77F5154FDB630054A1B9 /* NSString+Additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSString+Additions.m"; path = "../NSString+Additions.m"; sourceTree = "<group>"; };
+		409A77F6154FDB630054A1B9 /* NSString+Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSString+Additions.h"; path = "../NSString+Additions.h"; sourceTree = "<group>"; };
+		409A77F8154FDED20054A1B9 /* NSString+AdditionsTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+AdditionsTest.h"; sourceTree = "<group>"; };
+		409A77F9154FDED20054A1B9 /* NSString+AdditionsTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+AdditionsTest.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +109,8 @@
 		409A77CC154FD8F10054A1B9 /* isempty-category */ = {
 			isa = PBXGroup;
 			children = (
+				409A77F5154FDB630054A1B9 /* NSString+Additions.m */,
+				409A77F6154FDB630054A1B9 /* NSString+Additions.h */,
 				409A77D5154FD8F10054A1B9 /* XPAppDelegate.h */,
 				409A77D6154FD8F10054A1B9 /* XPAppDelegate.m */,
 				409A77CD154FD8F10054A1B9 /* Supporting Files */,
@@ -127,9 +132,9 @@
 		409A77E4154FD8F10054A1B9 /* isempty-categoryTests */ = {
 			isa = PBXGroup;
 			children = (
-				409A77EA154FD8F10054A1B9 /* isempty_categoryTests.h */,
-				409A77EB154FD8F10054A1B9 /* isempty_categoryTests.m */,
 				409A77E5154FD8F10054A1B9 /* Supporting Files */,
+				409A77F8154FDED20054A1B9 /* NSString+AdditionsTest.h */,
+				409A77F9154FDED20054A1B9 /* NSString+AdditionsTest.m */,
 			);
 			path = "isempty-categoryTests";
 			sourceTree = "<group>";
@@ -252,6 +257,7 @@
 			files = (
 				409A77D3154FD8F10054A1B9 /* main.m in Sources */,
 				409A77D7154FD8F10054A1B9 /* XPAppDelegate.m in Sources */,
+				409A77F7154FDB630054A1B9 /* NSString+Additions.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,7 +265,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				409A77EC154FD8F10054A1B9 /* isempty_categoryTests.m in Sources */,
+				409A77FA154FDED20054A1B9 /* NSString+AdditionsTest.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
