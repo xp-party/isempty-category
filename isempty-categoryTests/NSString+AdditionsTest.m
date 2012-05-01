@@ -27,4 +27,8 @@
     STAssertEquals([NSString isEmpty:@"abcde"], NO, @"Class NSString should return NO on isEmpty request with argument \"abcde\"");
 }
 
+- (void)testClassMethodNULLisEmpty {
+    STAssertEquals([NSString isEmpty:NULL], YES, @"Class NSString should return NO on isEmpty request with argument NULL");
+}
+
 @end
