@@ -11,24 +11,7 @@
 
 @implementation NSString_AdditionsTest
 
-- (void)testEmptyStringIsEmpty {
-    STAssertEquals([@"" isEmpty], YES, @"Empty string should return YES on isEmpty request");
-}
-
-- (void)testStringWithSpaceIsNotEmpty {
-    STAssertEquals([@" " isEmpty], NO, @"String \" \" should return NO on isEmpty request");
-}
-
-- (void)testStringWithCharsIsNotEmpty {
-    STAssertEquals([@"abc" isEmpty], NO, @"String \"abc\" should return NO on isEmpty request");
-}
-
-- (void)testClassMethodStringWithCharsNotEmpty {
-    STAssertEquals([NSString isEmpty:@"abcde"], NO, @"Class NSString should return NO on isEmpty request with argument \"abcde\"");
-}
-
-- (void)testClassMethodNULLisEmpty {
-    STAssertEquals([NSString isEmpty:NULL], YES, @"Class NSString should return NO on isEmpty request with argument NULL");
+- (void)testSomething {
 }
 
 @end
